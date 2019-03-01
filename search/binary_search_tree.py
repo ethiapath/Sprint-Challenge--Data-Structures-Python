@@ -13,6 +13,11 @@ class BinarySearchTree:
       self.right.depth_first_for_each(cb)
 
   def breadth_first_for_each(self, cb):
+    if self.left != None:
+      self.left.depth_first_for_each(cb)
+    cb(self.value)
+    if self.right != None:
+      self.right.depth_first_for_each(cb)
     pass
 
   def insert(self, value):
