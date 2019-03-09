@@ -17,6 +17,6 @@ n^2
 O(1)
 
 7. What is the runtime complexity of your optimized code in `names.py`?
-(n log n)^2
+n log n
 8. What is the space complexity of your optimized code in `names.py`?
 O(1)
